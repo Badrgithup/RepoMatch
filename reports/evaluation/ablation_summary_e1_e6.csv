@@ -1,0 +1,7 @@
+Experiment,Model,Precision@10,Recall@10,NDCG@10,Diversity (ILD),Coverage,Constraint Satisfaction,Avg Latency (ms)
+E1,E1: TF-IDF Only,0.32,0.0526,0.3018,0.7109,0.0343,0.32,18.18
+E2,E2: Text + Categorical,0.88,0.3334,0.7713,0.7616,0.0369,0.88,20.73
+E3,E3: Content-Based Full,0.88,0.3334,0.7793,0.7661,0.0369,0.88,20.61
+E4,E4: Knowledge-Based Only,0.91,0.3521,0.8146,0.8537,0.0339,1.0,17.01
+E5,E5: Cascade Hybrid (KB + CB),0.91,0.3521,0.8216,0.7838,0.0339,1.0,34.34
+E6,E6: Cascade Hybrid + Popularity,0.91,0.3521,0.8338,0.7796,0.0339,1.0,43.67

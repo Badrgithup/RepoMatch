@@ -1,0 +1,12 @@
+Column,Data Type,Description,Non-Null Values,Missing Values,Unique Values,Example
+rank,int64,Description to be verified based on the original dataset.,2800,0,100,1
+item,str,Description to be verified based on the original dataset.,2800,0,28,top-100-stars
+repo_name,str,Name of the GitHub repository.,2800,0,2641,freeCodeCamp
+stars,int64,"Number of GitHub stars, indicating repository popularity.",2800,0,2463,326065
+forks,int64,Number of times the repository has been forked.,2800,0,1771,26086
+language,str,Main programming language used in the repository.,2771,29,37,JavaScript
+repo_url,str,Web address associated with the repository.,2800,0,2683,https://github.com/freeCodeCamp/freeCodeCamp
+username,str,Description to be verified based on the original dataset.,2800,0,2183,freeCodeCamp
+issues,int64,Description to be verified based on the original dataset.,2800,0,645,244
+last_commit,str,Description to be verified based on the original dataset.,2800,0,2680,2021-07-14T01:24:39Z
+description,str,Short textual description of the repository.,2760,40,2642,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.

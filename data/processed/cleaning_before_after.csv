@@ -1,0 +1,7 @@
+Metric,Before Cleaning,After Cleaning,Notes
+Total rows,2800,2683,Removed 117 duplicate repository entries across top-100 category buckets
+Unique repositories (by repo_url),2683,2683,100% unique repositories preserved
+Unique programming languages,37,36,"Standardized Matlab->MATLAB, VimL->Vim script; inferred from item or mapped to Unknown"
+Missing / Unknown language count,29,20,Explicitly labeled as 'Unknown' category instead of NaN
+Empty description count,40,39,Converted NaN to empty string; preserved rows for metadata & topic matching
+Engineered columns added,11,24,"Added full_name, categories, clean_description, topics, log_stars, log_forks, log_issues, days_since_last_update, is_archived, recency_score, popularity_score"

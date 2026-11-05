@@ -1,0 +1,12 @@
+Column,Data Type,Description,Non-Null Values,Missing Values,Unique Values,Example
+rank,int64,Ranking position (1-100) of the repository within its respective 'item' category list.,2800,0,100,1
+item,str,Category bucket in which the repository was ranked (e.g. top-100-stars, top-100-forks, or specific language top-100).,2800,0,28,top-100-stars
+repo_name,str,Short name of the GitHub repository without owner prefix.,2800,0,2641,freeCodeCamp
+stars,int64,"Number of GitHub stars, indicating repository popularity.",2800,0,2463,326065
+forks,int64,Number of times the repository has been forked by the community.,2800,0,1771,26086
+language,str,Primary programming language detected by GitHub for the repository.,2771,29,37,JavaScript
+repo_url,str,Canonical GitHub web URL uniquely identifying the repository.,2800,0,2683,https://github.com/freeCodeCamp/freeCodeCamp
+username,str,GitHub username or organization that owns the repository.,2800,0,2183,freeCodeCamp
+issues,int64,Number of open GitHub issues reported on the repository at snapshot time.,2800,0,645,244
+last_commit,str,ISO-8601 UTC timestamp of the most recent commit pushed to the repository.,2800,0,2680,2021-07-14T01:24:39Z
+description,str,Short textual summary describing the repository's purpose and features.,2760,40,2642,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.
